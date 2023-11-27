@@ -69,7 +69,7 @@ internal class Antipattern
 
         // CS-R1045: Explicit array size is redundant when initialized in place.
         // https://deepsource.io/directory/analyzers/csharp/issues/CS-R1045
-        var odd = new int[] {1, 3, 5, 7, 9};
+        var odd = new[]{1, 3, 5, 7, 9};
 
         Foo? f = null;
         // CS-R1040: Null check can be collapsed and written as `f?.Bar == null`.
