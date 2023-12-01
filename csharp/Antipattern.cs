@@ -49,7 +49,7 @@ internal class Antipattern
 
         // CS-R1047: Use `T?` instead of `Nullable<T>`.
         // https://deepsource.io/directory/analyzers/csharp/issues/CS-R1047
-        Nullable<int> i = null;
+        int? i = null;
 
         // CS-R1024: Use `null-coalescing` operator, i.e. rewrite as `i ?? 1`.
         // https://deepsource.io/directory/analyzers/csharp/issues/CS-R1024
